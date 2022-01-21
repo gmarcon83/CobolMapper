@@ -15,7 +15,7 @@ npm i XX_TODO_XX
 Import with:
 
 ```
-import CobolMapper from "CobolMapper";
+import { CobolMapper } from "CobolMapper";
 ```
 
 Describe the Cobol data structure with:
