@@ -1,6 +1,6 @@
 import { Pic, Prop, PropObj } from "./lib/types";
 
-export default class CobolMapper {
+export class CobolMapper {
   [key: string]: any;
   #value = "";
   #length = 0;

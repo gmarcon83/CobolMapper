@@ -1,5 +1,5 @@
 import chai from "chai";
-import CobolMapper from "..";
+import { CobolMapper } from "..";
 
 const simpleArr = [
   { name: "myProp1", pic: "X(8)" },

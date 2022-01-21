@@ -1,5 +1,5 @@
 {
-  "name": "cobol-data-to-js",
+  "name": "cobol-mapper",
   "version": "0.0.1",
   "description": "Convert back and forth a COBOL data block to a JS Object, with setters and getters.",
   "main": "dist/index.js",
