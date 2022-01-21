@@ -119,6 +119,7 @@ describe("Cobol Mapper", () => {
     }
   });
 
+  // TODO Fix this.
   it("Should throw an error of error parsing PIC", (done) => {
     try {
       const arr = [{ name: "myProp1", pic: "S9999" }];
