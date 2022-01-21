@@ -29,7 +29,7 @@ const dataMap = [
 ];
 ```
 
-Create a obj with:
+Create an object with:
 
 ```
 const cm = New CobolMapper(dataMap)
