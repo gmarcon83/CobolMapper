@@ -1,6 +1,6 @@
 # COBOL Mapper
 
-Translate a Cobol data block to a JS object. Full TS support.
+Translate a Cobol data block to a JS object. Partial TS support.
 
 Initial release, for now only supports basic PIC types using "X(6)", "9(5)" etc...
 
@@ -9,13 +9,13 @@ Initial release, for now only supports basic PIC types using "X(6)", "9(5)" etc.
 Install in a particular project:
 
 ```
-npm i XX_TODO_XX
+npm i cobol-mapper
 ```
 
 Import with:
 
 ```
-import { CobolMapper } from "CobolMapper";
+import { CobolMapper } from "cobol-mapper";
 ```
 
 Describe the Cobol data structure with:
@@ -32,7 +32,7 @@ const dataMap = [
 Create an object with:
 
 ```
-const cm = New CobolMapper(dataMap)
+const cm = new CobolMapper(dataMap)
 ```
 
 Set all values using a data block:
