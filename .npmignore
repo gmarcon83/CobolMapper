@@ -2,3 +2,7 @@ src/
 test/
 node_modules/
 .nyc_output/
+.tsconfig.json
+.mocharc.json
+.gitignore
+.nycrc.json
